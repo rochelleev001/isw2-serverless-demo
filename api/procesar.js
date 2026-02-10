@@ -3,6 +3,6 @@ export default function handler(req, res) {
   
   // SIMPLIFICADO para el taller básico
   res.status(200).json({
-    resultado: `Nombre procesado: ${nombre.toUpperCase()}`
+    resultado: `Nombre procesado: ${nombre.toLowerCase()}`
   });
 }
