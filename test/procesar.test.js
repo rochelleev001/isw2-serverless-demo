@@ -101,7 +101,7 @@ test("procesar siempre devuelve mayúsculas en el resultado", () => {
     };
 
     handler(req, res);
-
+    //comentario prueba
     // Regla 1: Status 200
     assert.equal(res.statusCode, 200, `[${desc}] Debe responder con status 200`);
     
